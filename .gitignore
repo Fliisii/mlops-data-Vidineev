@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Environments and secrets
+.venv/
+.env
+.env.*
+!.env.example
+clearml.conf
+
+# Downloaded ClearML datasets and temporary files
+clearml_downloads/
+downloads/
+tmp/
+*.log
+.DS_Store
+/data

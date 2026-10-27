@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mlops-data-vidineev"
+version = "0.1.0"
+description = "Data versioning practice with DVC and ClearML"
+authors = ["Student <student@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+pandas = "3.1.0"
+scikit-learn = "1.9.1"
+dvc = "3.67.1"
+clearml = "2.1.12"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
